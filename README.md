@@ -1,11 +1,14 @@
 yesod-fay
 =========
 
-Utilities for using the [Fay](https://github.com/faylang/fay/wiki) Haskell-to-JS compiler with [Yesod](http://www.yesodweb.com).
+Utilities for using the [Haste](http://haste-lang.org/) Haskell-to-JS compiler with [Yesod](http://www.yesodweb.com).
 
-For an example of a Yesod application with Fay integrated, have a look at the `sample/` directory in this repository, or alternatively use the experimental Postgres-Fay (`pf`) application template (select it when running `yesod init` with recent versions of Yesod).
+The code is forked from [`yesod-fay`](http://hackage.haskell.org/package/yesod-fay) and provides similar APIs.
+
+For an example of a Yesod application with Haste integrated, have a look at the `sample/` directory in this repository.
 
 
+<!--
 Usage with cabal sandboxes
 --------------------------
 
@@ -16,3 +19,4 @@ Use the following command to set an environment variable (this is a workaround, 
     export HASKELL_PACKAGE_SANDBOX=`echo .cabal-sandbox/*-packages.conf.d/`
 
 Make sure to run this from the root of the Yesod project.
+-->
